@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConcreteClass\ConcreteOrderProcessFactory.cs" />
+    <Compile Include="ConcreteClass\OrderProcessFactory.cs" />
     <Compile Include="Interface\IOrderProcessing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\Book.cs" />
@@ -50,8 +52,6 @@
     <Compile Include="Repositories\UpgradeToMembership.cs" />
     <Compile Include="Repositories\Video.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ConcreteClass\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
