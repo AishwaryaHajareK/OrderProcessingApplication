@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingApplication", "OrderProcessingApplication.csproj", "{7A9577B5-9762-4782-9F24-7C2C3D3C5E0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingAppFactoryImplementation", "..\OrderProcessingAppFactoryImplementation\OrderProcessingAppFactoryImplementation.csproj", "{EBE7020A-47AC-4A4A-90F4-F22F586E2AE0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingAppFactoryImplementation", "OrderProcessingAppFactoryImplementation\OrderProcessingAppFactoryImplementation.csproj", "{390A87D5-9128-478C-B660-510D41079DB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{7A9577B5-9762-4782-9F24-7C2C3D3C5E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A9577B5-9762-4782-9F24-7C2C3D3C5E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A9577B5-9762-4782-9F24-7C2C3D3C5E0B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EBE7020A-47AC-4A4A-90F4-F22F586E2AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EBE7020A-47AC-4A4A-90F4-F22F586E2AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EBE7020A-47AC-4A4A-90F4-F22F586E2AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EBE7020A-47AC-4A4A-90F4-F22F586E2AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390A87D5-9128-478C-B660-510D41079DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390A87D5-9128-478C-B660-510D41079DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390A87D5-9128-478C-B660-510D41079DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390A87D5-9128-478C-B660-510D41079DB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
