@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="OrderProcessingAppFactoryImplementation\OrderProcessingAppFactoryImplementation.csproj">
+      <Project>{390a87d5-9128-478c-b660-510d41079db6}</Project>
+      <Name>OrderProcessingAppFactoryImplementation</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

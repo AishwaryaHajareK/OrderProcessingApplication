@@ -9,9 +9,10 @@ namespace OrderProcessingAppFactoryImplementation.Repositories
 {
     public class EmailActivationOrUpgradeMembershipToOwner : IOrderProcessing
     {
-        public void Process(string str)
+        public void Process()
         {
-            throw new NotImplementedException();
+            //Write the repository logic to process the request for EmailActivationOrUpgradeMembershipToOwner
+            Console.WriteLine("Inside the EmailActivationOrUpgradeMembershipToOwner class to process.");
         }
     }
 }
