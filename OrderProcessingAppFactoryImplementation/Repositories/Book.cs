@@ -9,10 +9,12 @@ namespace OrderProcessingAppFactoryImplementation.Repositories
 {
     public class Book : IOrderProcessing
     {
-        public void Process()
+        public string Process()
         {
+            var msg = "Inside the Book class to process";
             //Write the repository logic to process the request for Book
-            Console.WriteLine("Inside the Book class to process.");
+            Console.WriteLine(msg);
+            return msg;
         }
     }
 }

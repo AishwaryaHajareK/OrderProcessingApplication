@@ -9,10 +9,12 @@ namespace OrderProcessingAppFactoryImplementation.Repositories
 {
     public class Video : IOrderProcessing
     {
-        public void Process()
+        public string Process()
         {
+            var msg = "Inside the Video class to process";
             //Write the repository logic to process the request for Video
-            Console.WriteLine("Inside the Video class to process.");
+            Console.WriteLine(msg);
+            return msg;
         }
     }
 }
