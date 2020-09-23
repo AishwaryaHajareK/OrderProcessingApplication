@@ -9,9 +9,10 @@ namespace OrderProcessingAppFactoryImplementation.Repositories
 {
     public class ActivateMembership : IOrderProcessing
     {
-        public void Process(string str)
+        public void Process()
         {
-            throw new NotImplementedException();
+            //Write the repository logic to process the request for ActiveMembership
+            Console.WriteLine("Inside the Active Membership class to process.");
         }
     }
 }

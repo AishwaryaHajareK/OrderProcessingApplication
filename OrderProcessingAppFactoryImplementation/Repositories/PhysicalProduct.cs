@@ -9,9 +9,10 @@ namespace OrderProcessingAppFactoryImplementation.Repositories
 {
     public class PhysicalProduct : IOrderProcessing
     {
-        public void Process(string str)
+        public void Process()
         {
-            throw new NotImplementedException();
+            //Write the repository logic to process the request for PhysicalProduct
+            Console.WriteLine("Inside the PhysicalProduct class to process.");
         }
     }
 }

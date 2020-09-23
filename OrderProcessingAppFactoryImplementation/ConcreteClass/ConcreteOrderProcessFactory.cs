@@ -12,19 +12,19 @@ namespace OrderProcessingAppFactoryImplementation.ConcreteClass
     {
         public override IOrderProcessing GetOrderProcessType(string processsType)
         {
-            switch(processsType)
+            switch(processsType.ToLower())
             {
-                case "ActivateMembership":
+                case "activate membership":
                     return new ActivateMembership();
-                case "Book":
+                case "book":
                     return new Book();
-                case "EmailActivationOrUpgradeMembershipToOwner":
+                case "email owner":
                     return new EmailActivationOrUpgradeMembershipToOwner();
-                case "PhysicalProduct":
+                case "physical product":
                     return new PhysicalProduct();
-                case "UpgradeToMembership":
+                case "upgrade to membership":
                     return new UpgradeToMembership();
-                case "Video":
+                case "video":
                     return new Video();
                 default:
                     throw new ApplicationException(string.Format("Nothing to process"));

@@ -8,6 +8,6 @@ namespace OrderProcessingAppFactoryImplementation.Interface
 {
     public interface IOrderProcessing
     {
-        void Process(string str);
+        void Process();
     }
 }
