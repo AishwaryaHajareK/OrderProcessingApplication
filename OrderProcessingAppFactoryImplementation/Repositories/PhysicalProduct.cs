@@ -9,10 +9,12 @@ namespace OrderProcessingAppFactoryImplementation.Repositories
 {
     public class PhysicalProduct : IOrderProcessing
     {
-        public void Process()
+        public string Process()
         {
+            var msg = "Inside the PhysicalProduct class to process";
             //Write the repository logic to process the request for PhysicalProduct
-            Console.WriteLine("Inside the PhysicalProduct class to process.");
+            Console.WriteLine(msg);
+            return msg;
         }
     }
 }

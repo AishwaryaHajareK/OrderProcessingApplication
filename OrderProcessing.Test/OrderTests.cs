@@ -16,10 +16,11 @@ namespace OrderProcessing.Test
             //Perform the Action
             OrderProcessFactory selectType = new ConcreteOrderProcessFactory();
             var processType = selectType.GetOrderProcessType(type);
-            processType.Process();
+            var result = processType.Process();
 
             //Assert
-
+            Assert.IsTrue(result.Length > 0, "Test case passed as some data has been returned by repository");
+            Assert.IsFalse(result.Length != 0, "This means something has been written by respository");
         }
     }
 }
