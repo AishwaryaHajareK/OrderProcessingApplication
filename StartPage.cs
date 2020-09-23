@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace OrderProcessingApplication
 {
-    class StartPage
+    public class StartPage
     {
         static void Main(string[] args)
         {
             OrderProcessFactory orderProcess = new ConcreteOrderProcessFactory();
             int flag = -1;
-            Console.WriteLine("Enter the request you want to process. Following is the list of request. You can Select the one to process");
+            Console.WriteLine("Enter the request you want to process. Following is the list of request:");
             do
             {
                 Console.WriteLine("\nActivate membership");
