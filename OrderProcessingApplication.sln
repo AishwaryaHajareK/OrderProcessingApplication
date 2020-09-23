@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingApplication"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingAppFactoryImplementation", "OrderProcessingAppFactoryImplementation\OrderProcessingAppFactoryImplementation.csproj", "{390A87D5-9128-478C-B660-510D41079DB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessing.Test", "OrderProcessing.Test\OrderProcessing.Test.csproj", "{5266A3A8-DC3A-4C09-AE62-27186026676B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{390A87D5-9128-478C-B660-510D41079DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{390A87D5-9128-478C-B660-510D41079DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{390A87D5-9128-478C-B660-510D41079DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5266A3A8-DC3A-4C09-AE62-27186026676B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5266A3A8-DC3A-4C09-AE62-27186026676B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5266A3A8-DC3A-4C09-AE62-27186026676B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5266A3A8-DC3A-4C09-AE62-27186026676B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
