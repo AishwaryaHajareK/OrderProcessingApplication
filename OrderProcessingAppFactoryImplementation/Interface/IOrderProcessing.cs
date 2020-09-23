@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OrderProcessingAppFactoryImplementation
+namespace OrderProcessingAppFactoryImplementation.Interface
 {
-    public class Class1
+    public interface IOrderProcessing
     {
+        void Process(string str);
     }
 }
