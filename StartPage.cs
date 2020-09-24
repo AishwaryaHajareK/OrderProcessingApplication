@@ -26,10 +26,18 @@ namespace OrderProcessingApplication
                 var type = Console.ReadLine();
 
                 var paymetRequest = orderProcess.GetOrderProcessType(type);
-                paymetRequest.Process();
+                if(paymetRequest != null)
+                {
+                    paymetRequest.Process();
 
-                Console.WriteLine("\n\nPress 1 to continue else press 0 to stop.");
-                flag = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("\n\nPress 1 to continue else press 0 to stop.");
+                    flag = Convert.ToInt32(Console.ReadLine());
+                }
+                else
+                {
+                    Console.WriteLine("The request you selected is incorrect.\nPlease select the correct option.");
+                    flag = 1;
+                }
             }
             while (flag == 1);
             
