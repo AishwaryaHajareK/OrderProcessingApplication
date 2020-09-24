@@ -27,7 +27,7 @@ namespace OrderProcessingAppFactoryImplementation.ConcreteClass
                 case "video":
                     return new Video();
                 default:
-                    throw new ApplicationException(string.Format("Nothing to process"));
+                    return null;
             }
         }
     }

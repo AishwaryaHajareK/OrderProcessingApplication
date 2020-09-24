@@ -20,7 +20,25 @@ namespace OrderProcessing.Test
 
             //Assert
             Assert.IsTrue(result.Length > 0, "Test case passed as some data has been returned by repository");
-            Assert.IsFalse(result.Length != 0, "This means something has been written by respository");
+            Assert.IsFalse(result.Length == 0, "This means something has been written by respository");
+        }
+
+        [TestMethod]
+        public void ProcessOrderWithInValidData()
+        {
+            //Arrange the data
+            var type = "Video123";
+            string result = string.Empty;
+            //Perform the Action
+            OrderProcessFactory selectType = new ConcreteOrderProcessFactory();
+            var processType = selectType.GetOrderProcessType(type);
+            if(processType != null)
+            {
+                result = processType.Process();
+            }
+            
+            //Assert
+            Assert.IsTrue(result.Length == 0, "Test case did not pass as the request type passed is incorrect");
         }
     }
 }
